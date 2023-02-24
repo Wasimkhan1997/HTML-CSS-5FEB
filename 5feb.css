@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+   
+    
+}
+body{
+    background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_03(HTML%2BCSS)/assets/bg.png");
+}
+body nav div img{
+    align-items: flex-start;
+}
+
+ body nav  div ul  {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 30px;
+    font-weight: 200;
+    color: white;
+
+ }
+ body nav div ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ body nav button{
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    justify-content: flex-end;
+
+ }
+    
+ 
+body .main div h1{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    color:  white;
+    margin-left: 30%;
+    margin-top:5% ;
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+body .main div p{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left:35%;
+    font-weight: 500;
+    font-size:20px ;
+    text-align: center;
+}
+main div button{
+    display:flex;
+    align-items: center;
+    color: white;
+    margin-left:40% ;
+    background-color:  #ba0cc5;
+    font-weight: 600;
+    font-size: 17px bold;
+    border-radius: 6px ;
+    padding: 8px 15px;
+    margin-top: 3%;
+    text-align: center;
+    display: inline-block;
+    font-family: "poppins";
+
+}
+body nav{
+    height: 5%;
+    width: 100%;
+    background-color:black;
+}
+
+body nav div{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
